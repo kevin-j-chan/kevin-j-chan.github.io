@@ -6,6 +6,28 @@
     body{
       background-color: LightGray;
     }
+    <style type="text/css">
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+      }
+      .active, .accordion:hover {
+        background-color: #ccc;
+       }
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+      }
+    </style>
   </style>
   
   <!-- Body stuff -->
@@ -14,7 +36,7 @@
       <center><h1 style="background-color:White;"> Kevin Chan </h1></center> 
       <br>
       <button class="accordion"> Current Courses: </button><br>
-      <div class="panel">
+      <div class="panel" s>
       <u1>
         <li> <b>CSE 15L: Software Tools and Techniques</b></li>
         <li> <b>CSE 12: Basic Data Structures and Object-Oriented Design</b></li>
