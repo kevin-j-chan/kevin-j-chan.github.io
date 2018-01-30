@@ -1,0 +1,52 @@
+body{
+  background-color: White;
+  font-family: "Arial", sans-serif;
+}
+h1{
+  font-size: 60px;
+}
+a:link{
+  color: Tomato;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: Tomato;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.accordion{
+  background-color: White;
+  opacity: 1;
+  cursor: pointer;
+  padding: 20px;
+  width: 74%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.active, .accordion:hover{
+  background-color: LightGray;
+  opacity: 1;
+}
+.panel{
+  padding: 0 18px;       
+  display: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+img{
+  float: right;
+}
+.footerFixed{
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+}
