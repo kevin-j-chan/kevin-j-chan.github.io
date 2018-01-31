@@ -9,7 +9,7 @@ ul{
 }
 li{
   text-align: left;
-  padding: 16px;
+  padding: 3px !important;
   text-decoration: none;
 }
 a:link{
