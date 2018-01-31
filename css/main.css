@@ -5,8 +5,12 @@ body{
 h1{
   font-size: 60px;
 }
+ul{
+}
 li{
   text-align: left;
+  padding: 16px;
+  text-decoration: none;
 }
 a:link{
   color: Tomato;
