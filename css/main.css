@@ -5,6 +5,10 @@ body{
 h1{
   font-size: 60px;
 }
+li{
+  text-align: left;
+  padding: 70px;
+}
 a:link{
   color: Tomato;
   background-color: transparent;
